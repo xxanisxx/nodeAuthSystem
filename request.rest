@@ -6,7 +6,7 @@ POST http://localhost:3000/users/register
 Content-Type: application/json
 
 {
-    "name": "anis",
+    "name": "ons",
     "password": "anis"
 }
 
@@ -16,6 +16,11 @@ POST http://localhost:3000/users/login
 Content-Type: application/json
 
 {
-    "name": "anis",
+    "name": "ons",
     "password": "anis"
 }
+
+###
+
+GET  http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoib25zIiwicGFzc3dvcmQiOiIkMmIkMTAkT1hRN1V4MENyY0F0VkU1MWVzYmE3Li9kNXdBMUpWNWRybW9hZ0Vkd1VGSmxINnBMZzJmTDYiLCJpYXQiOjE2MTU0NDA2MTR9.ve5sVjoZOCo-wGy4czFpNRauFQQwc2OLNSQuLRG4z9Q
